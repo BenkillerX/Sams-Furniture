@@ -1,18 +1,19 @@
 import { ArrowRight, Truck, ShieldCheck, Sofa, Star } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const featuredProducts = [
     {
       title: "Luxury Sofa",
-      image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800",
+      image: "/SOFA.jpg",
     },
     {
-      title: "Modern Dining Set",
-      image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800",
+      title: "Modern Shelf",
+      image: "/Shelf.jpg",
     },
     {
-      title: "Classic Wooden Chair",
-      image: "https://images.unsplash.com/photo-1519947486511-46149fa0a254?w=800",
+      title: "Classic TV Stand",
+      image: "/TV.jpg",
     },
   ];
 
@@ -23,7 +24,7 @@ const Home = () => {
         id="home"
         className="bg-stone-100 min-h-screen flex items-center"
       >
-        <div className="max-w-7xl mx-auto px-6 py-10 grid lg:grid-cols-2 gap-12 items-center">
+        <div className="max-w-7xl mx-auto px-6 py-0 grid lg:grid-cols-2 gap-12 items-center">
           {/* Left */}
           <div>
 
@@ -38,17 +39,21 @@ const Home = () => {
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
-              <button className="bg-amber-700 hover:bg-amber-800 text-white px-7 py-4 rounded-lg flex items-center justify-center gap-2 transition">
-                Explore Collection
-                <ArrowRight size={20} />
-              </button>
+        <Link to="/product" className="w-full sm:w-auto">
+          <button className="w-full bg-amber-700 hover:bg-amber-800 text-white px-5 py-3 md:px-7 md:py-4 text-sm md:text-base rounded-lg flex items-center justify-center gap-2 transition cursor-pointer">
+            Explore Collection
+            <ArrowRight size={18} />
+          </button>
+        </Link>
 
-              <button className="border-2 border-stone-900 hover:bg-stone-900 hover:text-white px-7 py-4 rounded-lg transition">
-                Contact Us
-              </button>
-            </div>
+        <Link to="/contact" className="w-full sm:w-auto">
+          <button className="w-full border-2 border-stone-900 hover:bg-stone-900 hover:text-white px-5 py-3 md:px-7 md:py-4 text-sm md:text-base rounded-lg transition cursor-pointer">
+            Contact Us
+          </button>
+        </Link>
+      </div>
 
-            <div className="mt-10 flex flex-wrap gap-8">
+            <div className="mt-14 flex flex-wrap gap-8">
               <div>
                 <h2 className="text-3xl font-bold text-stone-900">500+</h2>
                 <p className="text-gray-500">Happy Clients</p>
@@ -170,10 +175,12 @@ const Home = () => {
             Let us help you create a beautiful and comfortable environment with
             furniture designed just for you.
           </p>
-
-          <button className="mt-8 bg-white text-amber-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition">
+            <Link to="/contact">
+            <button className="mt-8 bg-white text-amber-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition cursor-pointer">
             Request a Free Quote
           </button>
+          </Link>
+          
         </div>
       </section>
     </main>
