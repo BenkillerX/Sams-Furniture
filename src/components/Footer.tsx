@@ -4,6 +4,7 @@ import {
   FaTwitter,
   FaWhatsapp,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -30,12 +31,10 @@ const Footer = () => {
             </h3>
 
             <ul className="space-y-3">
-              <li><a href="#home" className="hover:text-amber-500 transition">Home</a></li>
-              <li><a href="#about" className="hover:text-amber-500 transition">About</a></li>
-              <li><a href="#products" className="hover:text-amber-500 transition">Products</a></li>
-              <li><a href="#services" className="hover:text-amber-500 transition">Services</a></li>
-              <li><a href="#gallery" className="hover:text-amber-500 transition">Gallery</a></li>
-              <li><a href="#contact" className="hover:text-amber-500 transition">Contact</a></li>
+              <li><Link to="/" className="hover:text-amber-500 transition">Home</Link></li>
+              <li><Link to="/about" className="hover:text-amber-500 transition">About</Link></li>
+              <li><Link to="/product" className="hover:text-amber-500 transition">Products</Link></li>
+              <li><Link to="/contact" className="hover:text-amber-500 transition">Contact</Link></li>
             </ul>
           </div>
 
@@ -47,8 +46,8 @@ const Footer = () => {
 
             <div className="space-y-3">
               <p>📍 Ibadan, Nigeria</p>
-              <p>📞 +234 800 000 0000</p>
-              <p>📧 info@furnicraft.com</p>
+              <p>📞 +234 705 099 5530</p>
+              <p>📧 Samlekfurniture@gmail.com</p>
               <p>🕒 Mon - Sat: 8:00 AM - 6:00 PM</p>
             </div>
           </div>
@@ -99,7 +98,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="border-t border-stone-700 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500 gap-3">
           <p>
-            © {new Date().getFullYear()} FurniCraft. All rights reserved.
+            © {new Date().getFullYear()} Samlek. All rights reserved.
           </p>
 
           <p>

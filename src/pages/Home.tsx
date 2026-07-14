@@ -26,7 +26,7 @@ const Home = () => {
       >
         <div className="max-w-7xl mx-auto px-6 py-0 grid lg:grid-cols-2 gap-12 items-center">
           {/* Left */}
-          <div>
+          <div className="order-2 lg:order-1">
 
             <h1 className="mt-6 text-4xl md:text-5xl lg:text-6xl font-extrabold text-stone-900 leading-tight">
               Transform Your Space With Elegant Furniture
@@ -54,25 +54,25 @@ const Home = () => {
       </div>
 
             <div className="mt-14 flex flex-wrap gap-8">
-              <div>
-                <h2 className="text-3xl font-bold text-stone-900">500+</h2>
-                <p className="text-gray-500">Happy Clients</p>
-              </div>
+              <div className="text-center">
+              <h2 className="text-3xl font-bold text-stone-900">500+</h2>
+              <p className="text-gray-500">Happy Clients</p>
+            </div>
 
-              <div>
-                <h2 className="text-3xl font-bold text-stone-900">10+</h2>
-                <p className="text-gray-500">Years Experience</p>
-              </div>
+            <div className="text-center">
+              <h2 className="text-3xl font-bold text-stone-900">10+</h2>
+              <p className="text-gray-500">Years Experience</p>
+            </div>
 
-              <div>
-                <h2 className="text-3xl font-bold text-stone-900">1000+</h2>
-                <p className="text-gray-500">Furniture Delivered</p>
-              </div>
+            <div className="text-center">
+              <h2 className="text-3xl font-bold text-stone-900">1000+</h2>
+              <p className="text-gray-500">Furniture Delivered</p>
+            </div>
             </div>
           </div>
 
           {/* Right */}
-          <div>
+          <div className="order-1 mt-4 md:mt-0 lg:order-2">
             <img
               src="/SamLeg.jpg"
               alt="Luxury Furniture"
@@ -110,10 +110,12 @@ const Home = () => {
 
                 <div className="p-6">
                   <h3 className="text-2xl font-bold">{item.title}</h3>
-
-                  <button className="mt-5 bg-amber-700 text-white px-5 py-3 rounded-lg hover:bg-amber-800 transition">
-                    View Details
+              <Link to="/product">
+              <button className="mt-5 bg-amber-700 text-white px-5 py-3 rounded-lg hover:bg-amber-800 transition cursor-pointer">
+                    Explore More 
                   </button>
+              </Link>
+                  
                 </div>
               </div>
             ))}
