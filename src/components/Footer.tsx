@@ -4,6 +4,7 @@ import {
   FaTwitter,
   FaWhatsapp,
 } from "react-icons/fa";
+import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -39,18 +40,60 @@ const Footer = () => {
           </div>
 
           {/* Contact */}
-          <div>
-            <h3 className="text-xl font-semibold text-white mb-5">
-              Contact Us
-            </h3>
+        {/* Contact */}
+<div>
+  <h3 className="text-xl font-semibold text-white mb-5">
+    Contact Us
+  </h3>
 
-            <div className="space-y-3">
-              <p>📍 Ibadan, Nigeria</p>
-              <p>📞 +234 705 099 5530</p>
-              <p>📧 Samlekfurniture@gmail.com</p>
-              <p>🕒 Mon - Sat: 8:00 AM - 6:00 PM</p>
-            </div>
-          </div>
+  <div className="space-y-5">
+    <div className="flex items-start gap-3">
+      <div className="bg-amber-600/20 p-2 rounded-full">
+        <MapPin size={18} className="text-amber-500" />
+      </div>
+
+      <div>
+        <h4 className="text-white font-medium">Address</h4>
+        <p className="text-gray-400">Moro Ife, Nigeria</p>
+      </div>
+    </div>
+
+    <div className="flex items-start gap-3">
+      <div className="bg-amber-600/20 p-2 rounded-full">
+        <Phone size={18} className="text-amber-500" />
+      </div>
+
+      <div>
+        <h4 className="text-white font-medium">Phone</h4>
+        <p className="text-gray-400">+234 705 099 5530</p>
+      </div>
+    </div>
+
+    <div className="flex items-start gap-3">
+      <div className="bg-amber-600/20 p-2 rounded-full">
+        <Mail size={18} className="text-amber-500" />
+      </div>
+
+      <div>
+        <h4 className="text-white font-medium">Email</h4>
+        <p className="text-gray-400 break-all">
+          samlekfurniture@gmail.com
+        </p>
+      </div>
+    </div>
+
+    <div className="flex items-start gap-3">
+      <div className="bg-amber-600/20 p-2 rounded-full">
+        <Clock size={18} className="text-amber-500" />
+      </div>
+
+      <div>
+        <h4 className="text-white font-medium">Working Hours</h4>
+        <p className="text-gray-400">Mon - Sat: 8:00 AM - 6:00 PM</p>
+      </div>
+    </div>
+  </div>
+</div>
 
           {/* Social */}
           <div>
@@ -65,7 +108,8 @@ const Footer = () => {
 
             <div className="flex gap-4">
               <a
-                href="/"
+                 href="https://www.facebook.com/SamLekFurniture"
+                target="_blank"
                 className="w-11 h-11 rounded-full bg-stone-800 hover:bg-amber-600 transition flex items-center justify-center"
               >
                 <FaFacebookF />
@@ -73,6 +117,7 @@ const Footer = () => {
 
               <a
                 href="/"
+                target="_blank"
                 className="w-11 h-11 rounded-full bg-stone-800 hover:bg-amber-600 transition flex items-center justify-center"
               >
                 <FaInstagram />
@@ -80,13 +125,15 @@ const Footer = () => {
 
               <a
                 href="/"
+                target="_blank"
                 className="w-11 h-11 rounded-full bg-stone-800 hover:bg-amber-600 transition flex items-center justify-center"
               >
                 <FaTwitter />
               </a>
 
               <a
-                href="/"
+                href="https://wa.me/2349063544615"
+                target="_blank"
                 className="w-11 h-11 rounded-full bg-stone-800 hover:bg-green-600 transition flex items-center justify-center"
               >
                 <FaWhatsapp />
@@ -102,7 +149,7 @@ const Footer = () => {
           </p>
 
           <p>
-            Designed with ❤️ for quality furniture.
+            Designed for quality furniture.
           </p>
         </div>
       </div>

@@ -5,11 +5,14 @@ import Contact from "./pages/Contact"
 import NavBar from "./components/NavBar"
 import Footer from "./components/Footer"
 import Products from "./pages/Products"
+import ScrollToTop from "./ScrollToTop"
+import ScrollToTopButton from "./ScrollToTopButton"
 
 function App() {
 
   return (
     <>
+    <ScrollToTop/>
       <NavBar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
@@ -18,6 +21,7 @@ function App() {
         <Route path="/contact" element={<Contact/>}/>
       </Routes>
       <Footer/>
+      <ScrollToTopButton />
     </>
   )
 }
