@@ -5,7 +5,7 @@ const Home = () => {
   const featuredProducts = [
     {
       title: "Luxury Sofa",
-      image: "/SOFA.jpg",
+      image: "/Luxry.jpg",
     },
     {
       title: "Modern Shelf",
