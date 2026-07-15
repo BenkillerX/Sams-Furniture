@@ -21,8 +21,8 @@ const products = [
   },
   {
     id: 4,
-    name: "Office Chair",
-    category: "Office",
+    name: "Dinning Chair",
+    category: "Chairs",
     image: "/Chair.jpg",
   },
   {
@@ -39,7 +39,7 @@ const products = [
   },
   {
     id: 7,
-    name: "Kitchen",
+    name: "Kitchen Cabinet",
     category: "Kitchen",
     image: "/Kitchen.jpg",
   },
