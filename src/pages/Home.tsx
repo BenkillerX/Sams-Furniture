@@ -28,8 +28,8 @@ const Home = () => {
           {/* Left */}
           <div className="order-2 lg:order-1">
 
-            <h1 className="mt-6 text-4xl md:text-5xl lg:text-6xl font-extrabold text-stone-900 leading-tight">
-              Transform Your Space With Elegant Furniture
+            <h1 className="mt-6 text-3xl md:text-5xl lg:text-6xl font-extrabold text-stone-900 leading-tight">
+              Transform <span className="text-amber-700">Your Space</span> With Elegant Furniture
             </h1>
 
             <p className="mt-6 text-gray-600 text-lg leading-8">
@@ -40,14 +40,14 @@ const Home = () => {
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
         <Link to="/product" className="w-full sm:w-auto">
-          <button className="w-full bg-amber-700 hover:bg-amber-800 text-white px-5 py-3 md:px-7 md:py-4 text-sm md:text-base rounded-lg flex items-center justify-center gap-2 transition cursor-pointer">
+          <button className="w-full bg-amber-700 hover:bg-amber-800 text-white px-3 py-3 md:px-7 md:py-4 text-sm md:text-base rounded-lg flex items-center justify-center gap-2 transition cursor-pointer">
             Explore Collection
             <ArrowRight size={18} />
           </button>
         </Link>
 
         <Link to="/contact" className="w-full sm:w-auto">
-          <button className="w-full border-2 border-stone-900 hover:bg-stone-900 hover:text-white px-5 py-3 md:px-7 md:py-4 text-sm md:text-base rounded-lg transition cursor-pointer">
+          <button className="w-full border-2 border-stone-900 hover:bg-stone-900 hover:text-white px-8 py-3 md:px-7 md:py-4 text-sm md:text-base rounded-lg transition cursor-pointer">
             Contact Us
           </button>
         </Link>
