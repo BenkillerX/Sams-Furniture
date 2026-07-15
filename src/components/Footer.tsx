@@ -21,7 +21,7 @@ const Footer = () => {
             <p className="mt-4 leading-7 text-gray-400">
               We design and build premium-quality furniture for homes,
               offices, hotels, and commercial spaces. Quality craftsmanship
-              and customer satisfaction are our priority.
+              and customer satisfaction are our priority across Nigeria.
             </p>
           </div>
 
