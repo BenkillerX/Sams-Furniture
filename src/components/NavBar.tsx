@@ -28,7 +28,7 @@ const NavBar = () => {
         />
 
         <h1 className="text-xl md:text-2xl font-bold text-amber-700">
-          SamLek
+          SamLek Furniture
         </h1>
       </Link>
 

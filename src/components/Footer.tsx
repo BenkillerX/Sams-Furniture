@@ -15,7 +15,7 @@ const Footer = () => {
           {/* Company */}
           <div>
             <h2 className="text-3xl font-bold text-amber-500">
-              SamLek
+              SamLek Furniture
             </h2>
 
             <p className="mt-4 leading-7 text-gray-400">

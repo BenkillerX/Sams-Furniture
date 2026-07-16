@@ -5,7 +5,7 @@ const products = [
     id: 1,
     name: "Modern Sofa",
     category: "Living Room",
-    image: "/SOFA.jpg",
+    image: "/Couch1.jpg",
   },
   {
     id: 2,
@@ -42,6 +42,72 @@ const products = [
     name: "Kitchen Cabinet",
     category: "Kitchen",
     image: "/Kitchen.jpg",
+  },
+  {
+    id: 8,
+    name: "Mini Kitchen Cabinet",
+    category: "Kitchen",
+    image: "/Kitchen-cabinet.jpg",
+  },
+  {
+    id: 9,
+    name: "Hand Crafted Wardrobe",
+    category: "Bedroom",
+    image: "/Wardrobe2.jpg",
+  },
+  {
+    id: 10,
+    name: "Hand Crafted Wooden Dresser",
+    category: "Bedroom",
+    image: "/Wooden-Dreser.jpg",
+  },
+  {
+    id: 11,
+    name: "Hand Crafted Military Eagle",
+    category: "Living Room",
+    image: "/Military-Eagle.jpg",
+  },
+  {
+    id: 12,
+    name: "White Sofa",
+    category: "Living Room",
+    image: "/Couch2.jpg",
+  },
+  {
+    id: 13,
+    name: "Black Sofa",
+    category: "Living Room",
+    image: "/BlackSofa.jpg",
+  },
+  {
+    id: 14,
+    name: "Wardrobe",
+    category: "Bedroom",
+    image: "/Wardroe3.jpg",
+  },
+  {
+    id: 15,
+    name: "Wardrobe",
+    category: "Bedroom",
+    image: "/wardrobe4.jpg",
+  },
+  {
+    id: 16,
+    name: "Comfort Chair",
+    category: "Chair",
+    image: "/Confort-chair.jpg",
+  },
+  {
+    id: 17,
+    name: " Luxury Bed",
+    category: "Bedroom",
+    image: "/Bes2.jpg",
+  },
+  {
+    id: 18,
+    name: "Comfortable Bed",
+    category: "Bedroom",
+    image: "/Bed1.jpg",
   },
 ];
 
