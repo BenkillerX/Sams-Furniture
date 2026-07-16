@@ -39,7 +39,7 @@ const services = [
       "Handcrafted kitchen cainets, closets, and storage units built high-grade plywood to maximise your space beautifully.",
   },
   {
-    title: "Hotels, Hostels & Hsopitality",
+    title: "Hotels, Hostels & Hospitality",
     description:
       "Heavy-duty, long-lasting beds, wardrobes, study desks, and lounge furniture built to hande dauly use while looking great.",
   },

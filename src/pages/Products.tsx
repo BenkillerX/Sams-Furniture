@@ -39,7 +39,7 @@ const products = [
   },
   {
     id: 7,
-    name: "Kitchen Cabinet",
+    name: "Standard Kitchen Cabinet",
     category: "Kitchen",
     image: "/Kitchen.jpg",
   },
@@ -52,25 +52,25 @@ const products = [
   {
     id: 9,
     name: "Hand Crafted Wardrobe",
-    category: "Bedroom",
+    category: "Handcrafted Arts",
     image: "/Wardrobe2.jpg",
   },
   {
     id: 10,
     name: "Hand Crafted Wooden Dresser",
-    category: "Bedroom",
+    category: "Handcrafted Arts",
     image: "/Wooden-Dreser.jpg",
   },
   {
     id: 11,
     name: "Hand Crafted Military Eagle",
-    category: "Living Room",
+    category: "Handcrafted Arts",
     image: "/Military-Eagle.jpg",
   },
   {
     id: 12,
-    name: "White Sofa",
-    category: "Living Room",
+    name: "Sofa",
+    category: "Sofa's",
     image: "/Couch2.jpg",
   },
   {
@@ -94,7 +94,7 @@ const products = [
   {
     id: 16,
     name: "Comfort Chair",
-    category: "Chair",
+    category: "Living Room",
     image: "/Confort-chair.jpg",
   },
   {
