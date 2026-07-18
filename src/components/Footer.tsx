@@ -108,8 +108,9 @@ const Footer = () => {
 
             <div className="flex gap-4">
               <a
-                 href="https://www.facebook.com/SamLekFurniture"
+                 href="https://www.facebook.com/share/g/1JAKeN9p6c/"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="w-11 h-11 rounded-full bg-stone-800 hover:bg-amber-600 transition flex items-center justify-center"
               >
                 <FaFacebookF />
