@@ -173,7 +173,7 @@ const services = [
       {/* Video */}
       <div>
         <video
-          controls
+          
           autoPlay
           muted
           loop
